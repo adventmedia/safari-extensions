@@ -7,139 +7,139 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49524FF925EC2C01005051C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49524FF825EC2C01005051C4 /* AppDelegate.swift */; };
-		49524FFC25EC2C01005051C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49524FFA25EC2C01005051C4 /* Main.storyboard */; };
-		49524FFE25EC2C01005051C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49524FFD25EC2C01005051C4 /* ViewController.swift */; };
-		4952500025EC2C01005051C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49524FFF25EC2C01005051C4 /* Assets.xcassets */; };
-		4952500725EC2C01005051C4 /* Reveal Password Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4952500625EC2C01005051C4 /* Reveal Password Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4952500C25EC2C01005051C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4952500B25EC2C01005051C4 /* Cocoa.framework */; };
-		4952500F25EC2C01005051C4 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952500E25EC2C01005051C4 /* SafariWebExtensionHandler.swift */; };
-		4952502025EC2C02005051C4 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 4952501C25EC2C02005051C4 /* background.js */; };
-		4952502125EC2C02005051C4 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4952501D25EC2C02005051C4 /* images */; };
-		4952502225EC2C02005051C4 /* password.js in Resources */ = {isa = PBXBuildFile; fileRef = 4952501E25EC2C02005051C4 /* password.js */; };
-		4952502325EC2C02005051C4 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 4952501F25EC2C02005051C4 /* manifest.json */; };
+		49353E1625F3D7F9000CE5C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49353E1525F3D7F9000CE5C0 /* AppDelegate.swift */; };
+		49353E1925F3D7F9000CE5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49353E1725F3D7F9000CE5C0 /* Main.storyboard */; };
+		49353E1B25F3D7F9000CE5C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49353E1A25F3D7F9000CE5C0 /* ViewController.swift */; };
+		49353E1D25F3D7FA000CE5C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49353E1C25F3D7FA000CE5C0 /* Assets.xcassets */; };
+		49353E2425F3D7FA000CE5C0 /* Reveal Password Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49353E2325F3D7FA000CE5C0 /* Reveal Password Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		49353E2925F3D7FA000CE5C0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49353E2825F3D7FA000CE5C0 /* Cocoa.framework */; };
+		49353E2C25F3D7FA000CE5C0 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49353E2B25F3D7FA000CE5C0 /* SafariWebExtensionHandler.swift */; };
+		49353E3D25F3D7FB000CE5C0 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 49353E3925F3D7FB000CE5C0 /* background.js */; };
+		49353E3E25F3D7FB000CE5C0 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 49353E3A25F3D7FB000CE5C0 /* images */; };
+		49353E3F25F3D7FB000CE5C0 /* password.js in Resources */ = {isa = PBXBuildFile; fileRef = 49353E3B25F3D7FB000CE5C0 /* password.js */; };
+		49353E4025F3D7FB000CE5C0 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 49353E3C25F3D7FB000CE5C0 /* manifest.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4952500825EC2C01005051C4 /* PBXContainerItemProxy */ = {
+		49353E2525F3D7FA000CE5C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 49524FEC25EC2C00005051C4 /* Project object */;
+			containerPortal = 49353E0925F3D7F9000CE5C0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4952500525EC2C01005051C4;
+			remoteGlobalIDString = 49353E2225F3D7FA000CE5C0;
 			remoteInfo = "Reveal Password Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4952501725EC2C01005051C4 /* Embed App Extensions */ = {
+		49353E3425F3D7FA000CE5C0 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				4952500725EC2C01005051C4 /* Reveal Password Extension.appex in Embed App Extensions */,
+				49353E2425F3D7FA000CE5C0 /* Reveal Password Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		49524FF425EC2C01005051C4 /* Reveal Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reveal Password.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		49524FF725EC2C01005051C4 /* Reveal_Password.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reveal_Password.entitlements; sourceTree = "<group>"; };
-		49524FF825EC2C01005051C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49524FFB25EC2C01005051C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		49524FFD25EC2C01005051C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		49524FFF25EC2C01005051C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4952500125EC2C01005051C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4952500625EC2C01005051C4 /* Reveal Password Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Reveal Password Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4952500B25EC2C01005051C4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		4952500E25EC2C01005051C4 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		4952501025EC2C01005051C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4952501125EC2C01005051C4 /* Reveal_Password_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reveal_Password_Extension.entitlements; sourceTree = "<group>"; };
-		4952501C25EC2C02005051C4 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../src/background.js; sourceTree = "<group>"; };
-		4952501D25EC2C02005051C4 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../src/images; sourceTree = "<group>"; };
-		4952501E25EC2C02005051C4 /* password.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = password.js; path = ../../../src/password.js; sourceTree = "<group>"; };
-		4952501F25EC2C02005051C4 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../src/manifest.json; sourceTree = "<group>"; };
+		49353E1125F3D7F9000CE5C0 /* Reveal Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reveal Password.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49353E1425F3D7F9000CE5C0 /* Reveal_Password.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reveal_Password.entitlements; sourceTree = "<group>"; };
+		49353E1525F3D7F9000CE5C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49353E1825F3D7F9000CE5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49353E1A25F3D7F9000CE5C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49353E1C25F3D7FA000CE5C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49353E1E25F3D7FA000CE5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49353E2325F3D7FA000CE5C0 /* Reveal Password Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Reveal Password Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49353E2825F3D7FA000CE5C0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		49353E2B25F3D7FA000CE5C0 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		49353E2D25F3D7FA000CE5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49353E2E25F3D7FA000CE5C0 /* Reveal_Password_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Reveal_Password_Extension.entitlements; sourceTree = "<group>"; };
+		49353E3925F3D7FB000CE5C0 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../../../src/background.js; sourceTree = "<group>"; };
+		49353E3A25F3D7FB000CE5C0 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../src/images; sourceTree = "<group>"; };
+		49353E3B25F3D7FB000CE5C0 /* password.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = password.js; path = ../../../src/password.js; sourceTree = "<group>"; };
+		49353E3C25F3D7FB000CE5C0 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../src/manifest.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49524FF125EC2C01005051C4 /* Frameworks */ = {
+		49353E0E25F3D7F9000CE5C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4952500325EC2C01005051C4 /* Frameworks */ = {
+		49353E2025F3D7FA000CE5C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4952500C25EC2C01005051C4 /* Cocoa.framework in Frameworks */,
+				49353E2925F3D7FA000CE5C0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49524FEB25EC2C00005051C4 = {
+		49353E0825F3D7F9000CE5C0 = {
 			isa = PBXGroup;
 			children = (
-				49524FF625EC2C01005051C4 /* Reveal Password */,
-				4952500D25EC2C01005051C4 /* Reveal Password Extension */,
-				4952500A25EC2C01005051C4 /* Frameworks */,
-				49524FF525EC2C01005051C4 /* Products */,
+				49353E1325F3D7F9000CE5C0 /* Reveal Password */,
+				49353E2A25F3D7FA000CE5C0 /* Reveal Password Extension */,
+				49353E2725F3D7FA000CE5C0 /* Frameworks */,
+				49353E1225F3D7F9000CE5C0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		49524FF525EC2C01005051C4 /* Products */ = {
+		49353E1225F3D7F9000CE5C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49524FF425EC2C01005051C4 /* Reveal Password.app */,
-				4952500625EC2C01005051C4 /* Reveal Password Extension.appex */,
+				49353E1125F3D7F9000CE5C0 /* Reveal Password.app */,
+				49353E2325F3D7FA000CE5C0 /* Reveal Password Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49524FF625EC2C01005051C4 /* Reveal Password */ = {
+		49353E1325F3D7F9000CE5C0 /* Reveal Password */ = {
 			isa = PBXGroup;
 			children = (
-				49524FF725EC2C01005051C4 /* Reveal_Password.entitlements */,
-				49524FF825EC2C01005051C4 /* AppDelegate.swift */,
-				49524FFA25EC2C01005051C4 /* Main.storyboard */,
-				49524FFD25EC2C01005051C4 /* ViewController.swift */,
-				49524FFF25EC2C01005051C4 /* Assets.xcassets */,
-				4952500125EC2C01005051C4 /* Info.plist */,
+				49353E1425F3D7F9000CE5C0 /* Reveal_Password.entitlements */,
+				49353E1525F3D7F9000CE5C0 /* AppDelegate.swift */,
+				49353E1725F3D7F9000CE5C0 /* Main.storyboard */,
+				49353E1A25F3D7F9000CE5C0 /* ViewController.swift */,
+				49353E1C25F3D7FA000CE5C0 /* Assets.xcassets */,
+				49353E1E25F3D7FA000CE5C0 /* Info.plist */,
 			);
 			path = "Reveal Password";
 			sourceTree = "<group>";
 		};
-		4952500A25EC2C01005051C4 /* Frameworks */ = {
+		49353E2725F3D7FA000CE5C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4952500B25EC2C01005051C4 /* Cocoa.framework */,
+				49353E2825F3D7FA000CE5C0 /* Cocoa.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4952500D25EC2C01005051C4 /* Reveal Password Extension */ = {
+		49353E2A25F3D7FA000CE5C0 /* Reveal Password Extension */ = {
 			isa = PBXGroup;
 			children = (
-				4952501B25EC2C02005051C4 /* Resources */,
-				4952500E25EC2C01005051C4 /* SafariWebExtensionHandler.swift */,
-				4952501025EC2C01005051C4 /* Info.plist */,
-				4952501125EC2C01005051C4 /* Reveal_Password_Extension.entitlements */,
+				49353E3825F3D7FB000CE5C0 /* Resources */,
+				49353E2B25F3D7FA000CE5C0 /* SafariWebExtensionHandler.swift */,
+				49353E2D25F3D7FA000CE5C0 /* Info.plist */,
+				49353E2E25F3D7FA000CE5C0 /* Reveal_Password_Extension.entitlements */,
 			);
 			path = "Reveal Password Extension";
 			sourceTree = "<group>";
 		};
-		4952501B25EC2C02005051C4 /* Resources */ = {
+		49353E3825F3D7FB000CE5C0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4952501C25EC2C02005051C4 /* background.js */,
-				4952501D25EC2C02005051C4 /* images */,
-				4952501E25EC2C02005051C4 /* password.js */,
-				4952501F25EC2C02005051C4 /* manifest.json */,
+				49353E3925F3D7FB000CE5C0 /* background.js */,
+				49353E3A25F3D7FB000CE5C0 /* images */,
+				49353E3B25F3D7FB000CE5C0 /* password.js */,
+				49353E3C25F3D7FB000CE5C0 /* manifest.json */,
 			);
 			name = Resources;
 			path = "Reveal Password Extension";
@@ -148,32 +148,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49524FF325EC2C01005051C4 /* Reveal Password */ = {
+		49353E1025F3D7F9000CE5C0 /* Reveal Password */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4952501825EC2C01005051C4 /* Build configuration list for PBXNativeTarget "Reveal Password" */;
+			buildConfigurationList = 49353E3525F3D7FA000CE5C0 /* Build configuration list for PBXNativeTarget "Reveal Password" */;
 			buildPhases = (
-				49524FF025EC2C01005051C4 /* Sources */,
-				49524FF125EC2C01005051C4 /* Frameworks */,
-				49524FF225EC2C01005051C4 /* Resources */,
-				4952501725EC2C01005051C4 /* Embed App Extensions */,
+				49353E0D25F3D7F9000CE5C0 /* Sources */,
+				49353E0E25F3D7F9000CE5C0 /* Frameworks */,
+				49353E0F25F3D7F9000CE5C0 /* Resources */,
+				49353E3425F3D7FA000CE5C0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4952500925EC2C01005051C4 /* PBXTargetDependency */,
+				49353E2625F3D7FA000CE5C0 /* PBXTargetDependency */,
 			);
 			name = "Reveal Password";
 			productName = "Reveal Password";
-			productReference = 49524FF425EC2C01005051C4 /* Reveal Password.app */;
+			productReference = 49353E1125F3D7F9000CE5C0 /* Reveal Password.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4952500525EC2C01005051C4 /* Reveal Password Extension */ = {
+		49353E2225F3D7FA000CE5C0 /* Reveal Password Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4952501425EC2C01005051C4 /* Build configuration list for PBXNativeTarget "Reveal Password Extension" */;
+			buildConfigurationList = 49353E3125F3D7FA000CE5C0 /* Build configuration list for PBXNativeTarget "Reveal Password Extension" */;
 			buildPhases = (
-				4952500225EC2C01005051C4 /* Sources */,
-				4952500325EC2C01005051C4 /* Frameworks */,
-				4952500425EC2C01005051C4 /* Resources */,
+				49353E1F25F3D7FA000CE5C0 /* Sources */,
+				49353E2025F3D7FA000CE5C0 /* Frameworks */,
+				49353E2125F3D7FA000CE5C0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -181,27 +181,27 @@
 			);
 			name = "Reveal Password Extension";
 			productName = "Reveal Password Extension";
-			productReference = 4952500625EC2C01005051C4 /* Reveal Password Extension.appex */;
+			productReference = 49353E2325F3D7FA000CE5C0 /* Reveal Password Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		49524FEC25EC2C00005051C4 /* Project object */ = {
+		49353E0925F3D7F9000CE5C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					49524FF325EC2C01005051C4 = {
+					49353E1025F3D7F9000CE5C0 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					4952500525EC2C01005051C4 = {
+					49353E2225F3D7FA000CE5C0 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 49524FEF25EC2C00005051C4 /* Build configuration list for PBXProject "Reveal Password" */;
+			buildConfigurationList = 49353E0C25F3D7F9000CE5C0 /* Build configuration list for PBXProject "Reveal Password" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -209,73 +209,73 @@
 				en,
 				Base,
 			);
-			mainGroup = 49524FEB25EC2C00005051C4;
-			productRefGroup = 49524FF525EC2C01005051C4 /* Products */;
+			mainGroup = 49353E0825F3D7F9000CE5C0;
+			productRefGroup = 49353E1225F3D7F9000CE5C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49524FF325EC2C01005051C4 /* Reveal Password */,
-				4952500525EC2C01005051C4 /* Reveal Password Extension */,
+				49353E1025F3D7F9000CE5C0 /* Reveal Password */,
+				49353E2225F3D7FA000CE5C0 /* Reveal Password Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		49524FF225EC2C01005051C4 /* Resources */ = {
+		49353E0F25F3D7F9000CE5C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4952500025EC2C01005051C4 /* Assets.xcassets in Resources */,
-				49524FFC25EC2C01005051C4 /* Main.storyboard in Resources */,
+				49353E1D25F3D7FA000CE5C0 /* Assets.xcassets in Resources */,
+				49353E1925F3D7F9000CE5C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4952500425EC2C01005051C4 /* Resources */ = {
+		49353E2125F3D7FA000CE5C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4952502325EC2C02005051C4 /* manifest.json in Resources */,
-				4952502125EC2C02005051C4 /* images in Resources */,
-				4952502025EC2C02005051C4 /* background.js in Resources */,
-				4952502225EC2C02005051C4 /* password.js in Resources */,
+				49353E4025F3D7FB000CE5C0 /* manifest.json in Resources */,
+				49353E3E25F3D7FB000CE5C0 /* images in Resources */,
+				49353E3D25F3D7FB000CE5C0 /* background.js in Resources */,
+				49353E3F25F3D7FB000CE5C0 /* password.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49524FF025EC2C01005051C4 /* Sources */ = {
+		49353E0D25F3D7F9000CE5C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49524FFE25EC2C01005051C4 /* ViewController.swift in Sources */,
-				49524FF925EC2C01005051C4 /* AppDelegate.swift in Sources */,
+				49353E1B25F3D7F9000CE5C0 /* ViewController.swift in Sources */,
+				49353E1625F3D7F9000CE5C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4952500225EC2C01005051C4 /* Sources */ = {
+		49353E1F25F3D7FA000CE5C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4952500F25EC2C01005051C4 /* SafariWebExtensionHandler.swift in Sources */,
+				49353E2C25F3D7FA000CE5C0 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4952500925EC2C01005051C4 /* PBXTargetDependency */ = {
+		49353E2625F3D7FA000CE5C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4952500525EC2C01005051C4 /* Reveal Password Extension */;
-			targetProxy = 4952500825EC2C01005051C4 /* PBXContainerItemProxy */;
+			target = 49353E2225F3D7FA000CE5C0 /* Reveal Password Extension */;
+			targetProxy = 49353E2525F3D7FA000CE5C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		49524FFA25EC2C01005051C4 /* Main.storyboard */ = {
+		49353E1725F3D7F9000CE5C0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				49524FFB25EC2C01005051C4 /* Base */,
+				49353E1825F3D7F9000CE5C0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -283,7 +283,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4952501225EC2C01005051C4 /* Debug */ = {
+		49353E2F25F3D7FA000CE5C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -344,7 +344,7 @@
 			};
 			name = Debug;
 		};
-		4952501325EC2C01005051C4 /* Release */ = {
+		49353E3025F3D7FA000CE5C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -398,11 +398,13 @@
 			};
 			name = Release;
 		};
-		4952501525EC2C01005051C4 /* Debug */ = {
+		49353E3225F3D7FA000CE5C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Reveal Password Extension/Reveal_Password_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 8GQ48BV65L;
 				INFOPLIST_FILE = "Reveal Password Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -410,18 +412,20 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Reveal-Password.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = net.adventmedia.revealPassword.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		4952501625EC2C01005051C4 /* Release */ = {
+		49353E3325F3D7FA000CE5C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Reveal Password Extension/Reveal_Password_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 8GQ48BV65L;
 				INFOPLIST_FILE = "Reveal Password Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -429,50 +433,56 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Reveal-Password.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = net.adventmedia.revealPassword.extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
-		4952501925EC2C01005051C4 /* Debug */ = {
+		49353E3625F3D7FA000CE5C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Reveal Password/Reveal_Password.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 8GQ48BV65L;
 				INFOPLIST_FILE = "Reveal Password/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Reveal-Password";
+				PRODUCT_BUNDLE_IDENTIFIER = net.adventmedia.revealPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		4952501A25EC2C01005051C4 /* Release */ = {
+		49353E3725F3D7FA000CE5C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Reveal Password/Reveal_Password.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 8GQ48BV65L;
 				INFOPLIST_FILE = "Reveal Password/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Reveal-Password";
+				PRODUCT_BUNDLE_IDENTIFIER = net.adventmedia.revealPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -481,34 +491,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49524FEF25EC2C00005051C4 /* Build configuration list for PBXProject "Reveal Password" */ = {
+		49353E0C25F3D7F9000CE5C0 /* Build configuration list for PBXProject "Reveal Password" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4952501225EC2C01005051C4 /* Debug */,
-				4952501325EC2C01005051C4 /* Release */,
+				49353E2F25F3D7FA000CE5C0 /* Debug */,
+				49353E3025F3D7FA000CE5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4952501425EC2C01005051C4 /* Build configuration list for PBXNativeTarget "Reveal Password Extension" */ = {
+		49353E3125F3D7FA000CE5C0 /* Build configuration list for PBXNativeTarget "Reveal Password Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4952501525EC2C01005051C4 /* Debug */,
-				4952501625EC2C01005051C4 /* Release */,
+				49353E3225F3D7FA000CE5C0 /* Debug */,
+				49353E3325F3D7FA000CE5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4952501825EC2C01005051C4 /* Build configuration list for PBXNativeTarget "Reveal Password" */ = {
+		49353E3525F3D7FA000CE5C0 /* Build configuration list for PBXNativeTarget "Reveal Password" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4952501925EC2C01005051C4 /* Debug */,
-				4952501A25EC2C01005051C4 /* Release */,
+				49353E3625F3D7FA000CE5C0 /* Debug */,
+				49353E3725F3D7FA000CE5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 49524FEC25EC2C00005051C4 /* Project object */;
+	rootObject = 49353E0925F3D7F9000CE5C0 /* Project object */;
 }

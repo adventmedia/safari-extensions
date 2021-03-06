@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Reveal Password
 //
-//  Created by Andrew Macrae on 2021-02-28.
+//  Created by Andrew Macrae on 2021-03-06.
 //
 
 import Cocoa
@@ -10,7 +10,7 @@ import SafariServices.SFSafariApplication
 import SafariServices.SFSafariExtensionManager
 
 let appName = "Reveal Password"
-let extensionBundleIdentifier = "com.yourCompany.Reveal-Password.Extension"
+let extensionBundleIdentifier = "net.adventmedia.Reveal-Password.Extension"
 
 class ViewController: NSViewController {
 

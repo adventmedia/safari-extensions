@@ -29,5 +29,12 @@
       "64": "/images/password-hide-icon-64.png",
       "128": "/images/password-hide-icon-128.png"
     }
-  }
+  },
+  "icons": [
+    {
+      "src": "/password-hide-icon-128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    }
+  ]
 }

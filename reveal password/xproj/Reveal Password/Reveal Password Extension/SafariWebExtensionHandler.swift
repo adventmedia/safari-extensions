@@ -2,7 +2,7 @@
 //  SafariWebExtensionHandler.swift
 //  Reveal Password Extension
 //
-//  Created by Andrew Macrae on 2021-02-28.
+//  Created by Andrew Macrae on 2021-03-06.
 //
 
 import SafariServices
